@@ -17,10 +17,10 @@ $(function(){
         $(".flexCon").attr("data-alignContent",value);
         $(".flexCon")[0].style.alignContent = value;
 
-        // if(value == "stretch"){
-        //     $(".flex-item").addClass("flex-itemOn");
-        // }else{
-        //     $(".flex-item").removeClass("flex-itemOn");
-        // }
+        if(value == "stretch"){
+            $(".flex-item").addClass("flex-itemOn");
+        }else{
+            $(".flex-item").removeClass("flex-itemOn");
+        }
     })
 })
